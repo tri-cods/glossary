@@ -10,7 +10,7 @@
 
 *directory* - In your GUI, a folder. A file system data structure.
 
-*fork* - the way others interact with and can modify your Github repos. Forking makes a copy of someone's repo in a way that connects back to the original repo, but lets you modify it without altering the original.
+*fork* - The way others interact with and can modify your Github repos. Forking makes a copy of someone's repo in a way that connects back to the original repo, but lets you modify it without altering the original.
 
 *forking* - Forking allows you to freely make changes to a copy of a repository without affecting the original repository. You can however, propose changes (through a *pull request*) to incorporate into that original repository.  
 
@@ -48,7 +48,7 @@
 
 *version control system (VCS)* - A tool for keeping track of versions of files in a project. They allow for collaboration in a team, storing work in multiple locations, and reverting back to a previous state of the project.
 
-*working directory* - a group of files you're in the process of editing.
+*working directory* - A group of files you're in the process of editing.
 
 ___
 Sources and further reading:
