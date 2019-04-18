@@ -1,6 +1,6 @@
 # Command Line
 
-## Commands 
+## Commands
 [Note that these commands are Unix Code]
 
 `pwd` - show the current (or "working") directory. Stands for "print working directory"
@@ -18,9 +18,9 @@
 - `cd ../..` travel two directories up
 - `cd Documents/thesis-drafts` move two directories, from the home folder to "thesis-drafts," skipping "Documents"
 
-`touch <filename>` - Create an empty text file named <filename> in your current directory.
+`touch <filename>` - Create an empty text file named `<filename>` in your current directory.
 
-`code <filename>` - Open file in VS Code (and create it, if it does not already exist).
+`atom <filename>` - Open file in atom (and create it, if it does not already exist).
 
 `mkdir <folder name>` - Create a directory named `<folder name>` in the current working directory.
 
@@ -36,9 +36,9 @@
 
 `less <filename>` - Print out the contents of a file in a paginated form. Use `<Control-v>` and `<Alt-v>` (or `<Command-v` and `<Option-v>`) to move up and down. Press `q` to quit.
 
-`head <filename>` - Print the first section of a file
+`head <filename>` - Print the first section of a file (first 10 lines or other specified quantity)
 
-`tail <filename>` - Print the last section of a file
+`tail <filename>` - Print the last section of a file (last 10 lines or other specified quantity)
 
 `wc -l` - Takes input and returns the number of lines in that input, as in `cat <filename> | wc -l`
 
@@ -50,8 +50,6 @@
 
 `rm <filename>` - Permanently remove a file from your computer.
 
-
-Also check out [other useful commands](other-commands.md)
 
 ## Glossary
 
@@ -67,7 +65,7 @@ Also check out [other useful commands](other-commands.md)
 
 ### Other Terms
 
-*argument* - in the command line, an argument is an item or parameter that you give a program when you start it. For instance, if you 
+*argument* - in the command line, an argument is an item or parameter that you give a program when you start it. For instance, if you
 
 *command* - a specific task or function given to a computer application (Terminal or Bash in this tutorial) to perform some kind of task or function. At first it may seem like aribtrary letters are pulled out of thin air to enact some sort of magic. In fact, these commands (`mkdir`, `ls`, etc.) have been written by people to fulfill express functions. Options (see below) were developed for specific commands based on the commands' functions. Most users only need a small set of the commands that come pre-installed in their command line interface to complete their desired tasks.
 
@@ -81,31 +79,31 @@ Also check out [other useful commands](other-commands.md)
 
 *pipeline* - in the command line, a pipeline is a sequence of processes. The output of one command feeds directly as input into the next command.
 
-*prompt* - the `$` is known as the "prompt." It indicats that your command line is ready to receive commands.
+*prompt* - the `$` is known as the "prompt." It indicates that your command line is ready to receive commands.
 
 *REPL* - "Read Eval Print Loop" The process of typing something in to the command line and getting something back out. Like most things to do with the command line, not as complicated (or scary) as it sounds.
 
 *root* - A word for the administrative user on a system. You often need administrative privileges to install programs or access certain system folders using the command line. You can tell you're root when your `$` prompt turns into a `#` prompt. To become root, type `su` and enter the password you use to log in. (No characters or asterisks will appear, just type your password and press enter.) You can also run a single command as root by typing `sudo` before the command.
 
-*Text editor* - A program for creating and editing plain text files. Unlike word processors such as LibreOffice and Word, which create complex documents in the form of archives that include formatting information and other metadata, a plain text editor creates a single file. Programmers tend to use plain text files because computers can work with them easily. Sublime Text, Nano, and VI are examples of text editors.
+*Text editor* - A program for creating and editing plain text files. Unlike word processors such as LibreOffice and MS Word, which create complex documents in the form of archives that include formatting information and other metadata, a plain text editor creates a single file. Programmers tend to use plain text files because computers can work with them easily. Atom, Sublime Text, Nano, and VI are examples of text editors.
 
 *UNIX* - A family of operating systems that have a multi-user model and a particular design philosophy. Both OSX and Linux are UNIXes. Windows is not.
 
 *wildcard* `*` - the wildcard character on the command line will revolutionize your world. When you are giving a command an argument, for instance instead of
 
-````grep filename.txt````
+`grep filename.txt`
 
 type
 
-````grep *.txt````
+`grep *.txt`
 
 The wildcard, `*`, will tell the command to search for any file ending with a .txt extension. But the wildcard can work anywhere in the string! If, for example, you want to move all formats (.doc, .pdf, .jpg) of the same name to a different folder you would type:
 
-````mv [filename.*] [foldername]````
+`mv [filename.*] [foldername]`
 
 
-Find so much more on the command line:
+### Other command line resources
 
 [Bash manual](https://www.gnu.org/software/bash/manual/bashref.html) - the no nonsense text descriptions of bash commands.  
-[explain shell](https://explainshell.com/) - a site that explains commands you paste into the form. This site is fantastic for breaking down commands you find in the wild on the internet.  
+[Explain shell](https://explainshell.com/) - a site that explains commands you paste into the form. This site is fantastic for breaking down commands you find in the wild on the internet.  
 [Easy shell guide](https://lucasviola.github.io/easyshell/) - a friendly, styled (pastel!) list of common commands you might want to try out.
