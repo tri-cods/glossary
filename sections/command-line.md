@@ -1,7 +1,6 @@
 # Command Line
 
 ## Commands
-[Note that these commands are Unix Code]
 
 `pwd` - show the current (or "working") directory. Stands for "print working directory"
 
@@ -28,7 +27,7 @@
 
 `cat <filename>` - Print the contents of a file to the screen, in this case the contents of `<filename>`
 
-`>` - Redirects printed output to a text file, as in `echo "this is some text" > hello.txt`
+`>` - Redirects printed output to a text file. For example `echo "this is some text" > hello.txt` would put "this is some text" in a file called hello.txt 
 
 `>>` - Redirect and append. If there's already a file with text in it, this command will add that text to the file without destroying and recreating it.
 
@@ -50,12 +49,19 @@
 
 `rm <filename>` - Permanently remove a file from your computer.
 
+`clear` - Clears our terminal window of the command history (you can also type `Control` + `l`).
+
+`grep -i <text>` - Searches text and prints any line that matches a specified pattern (here "text"). "Grep" stands for "global regular expressions."
+
+`rev` - Reverses the text you give it, i.e. `echo "Hello there" | rev`
+
+Here's a list of [other useful commands](https://github.com/tri-cods/command-line/blob/master/sections/other-commands.md)
 
 ## Glossary
 
 ### Synonyms for the command line
 
-*bash* - the programming language used in the command line. (Yes, we tricked you, you're already programming!) Short for "Born Again SHell," for reasons people on the internet will happily tell you about.
+*bash* - The programming language used in the command line. (Yes, we tricked you, you're already programming!) Short for "Born Again SHell," for reasons people on the internet will happily tell you about.
 
 *cli* - "Command Language Interpreter," this is a super technical term for the command line used to impress everyone around you.
 
@@ -65,21 +71,23 @@
 
 ### Other Terms
 
-*argument* - in the command line, an argument is an item or parameter that you give a program when you start it. For instance, if you
+*argument* - In the command line, an argument is an item or parameter that you give a program when you start it. For instance, if you
 
-*command* - a specific task or function given to a computer application (Terminal or Bash in this tutorial) to perform some kind of task or function. At first it may seem like aribtrary letters are pulled out of thin air to enact some sort of magic. In fact, these commands (`mkdir`, `ls`, etc.) have been written by people to fulfill express functions. Options (see below) were developed for specific commands based on the commands' functions. Most users only need a small set of the commands that come pre-installed in their command line interface to complete their desired tasks.
+*command* - A specific task or function given to a computer application (Terminal or Bash in this tutorial) to perform some kind of task or function. At first it may seem like aribtrary letters are pulled out of thin air to enact some sort of magic. In fact, these commands (`mkdir`, `ls`, etc.) have been written by people to fulfill express functions. Options (see below) were developed for specific commands based on the commands' functions. Most users only need a small set of the commands that come pre-installed in their command line interface to complete their desired tasks.
 
-*flag* - otherwise known as an *option* or *switch*, a flag provides additional information for how you wish a program to run. For instance, when executing the command `grep`, you may want to add the flag `-i` to ignore capitalization. If you wish to know what flags belond to particular commands, you can check the m
+*directory* - A folder on your hard drive.
+
+*flag* - Otherwise known as an *option* or *switch*, a flag provides additional information for how you wish a program to run. For instance, when executing the command `grep`, you may want to add the flag `-i` to ignore capitalization. If you wish to know what flags belond to particular commands, you can check the m
 
 *GUI* - "Graphical User Interface." Pronounced "gooey," like delicious gooey chocolate. Basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
 
-*option* - see *flag*
+*option* - See *flag*
 
 *path* - A list of folders on your system that are checked for programs to generate the list of commands available on the command line. For example, since the folder `/bin` is typically on the path, putting an executable program in that folder will make it available as a command.
 
-*pipeline* - in the command line, a pipeline is a sequence of processes. The output of one command feeds directly as input into the next command.
+*pipeline* - In the command line, a pipeline is a sequence of processes. The output of one command feeds directly as input into the next command.
 
-*prompt* - the `$` is known as the "prompt." It indicates that your command line is ready to receive commands.
+*prompt* - The `$` is known as the "prompt." It indicates that your command line is ready to receive commands.
 
 *REPL* - "Read Eval Print Loop" The process of typing something in to the command line and getting something back out. Like most things to do with the command line, not as complicated (or scary) as it sounds.
 
@@ -89,7 +97,7 @@
 
 *UNIX* - A family of operating systems that have a multi-user model and a particular design philosophy. Both OSX and Linux are UNIXes. Windows is not.
 
-*wildcard* `*` - the wildcard character on the command line will revolutionize your world. When you are giving a command an argument, for instance instead of
+*wildcard* `*` - The wildcard character on the command line will revolutionize your world. When you are giving a command an argument, for instance instead of
 
 `grep filename.txt`
 
