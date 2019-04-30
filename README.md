@@ -10,6 +10,8 @@ This glossary contains definitions and explanations of core concepts introduced 
          * [Other Terms](sections/command-line.md#other-terms)
    * [Git](sections/git.md#git)
       * [Definitions](sections/git.md#definitions)
+   * [Tidy Data](sections/data.md)
+
 
 
 
