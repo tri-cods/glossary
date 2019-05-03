@@ -5,12 +5,10 @@ This glossary contains definitions and explanations of core concepts introduced 
 
    * [Command Line](sections/command-line.md)
       * [Commands](sections/command-line.md#commands)
-      * [Glossary](sections/command-line.md#glossary)
-         * [Synonyms for the command line](sections/command-line.md#synonyms-for-the-command-line)
-         * [Other Terms](sections/command-line.md#other-terms)
+      * [Synonyms for the command line](sections/command-line.md#synonyms-for-the-command-line)
+      * [Other Terms](sections/command-line.md#other-terms)
    * [Git](sections/git.md#git)
-      * [Definitions](sections/git.md#definitions)
-   * [Tidy Data](sections/data.md)
+   * [Tidy Data](sections/tidy-data.md)
 
 
 

@@ -27,7 +27,7 @@
 
 `cat <filename>` - Print the contents of a file to the screen, in this case the contents of `<filename>`
 
-`>` - Redirects printed output to a text file. For example `echo "this is some text" > hello.txt` would put "this is some text" in a file called hello.txt 
+`>` - Redirects printed output to a text file. For example `echo "this is some text" > hello.txt` would put "this is some text" in a file called hello.txt
 
 `>>` - Redirect and append. If there's already a file with text in it, this command will add that text to the file without destroying and recreating it.
 
@@ -57,9 +57,7 @@
 
 Here's a list of [other useful commands](https://github.com/tri-cods/command-line/blob/master/sections/other-commands.md)
 
-## Glossary
-
-### Synonyms for the command line
+## Synonyms for the command line
 
 *bash* - The programming language used in the command line. (Yes, we tricked you, you're already programming!) Short for "Born Again SHell," for reasons people on the internet will happily tell you about.
 
@@ -69,7 +67,7 @@ Here's a list of [other useful commands](https://github.com/tri-cods/command-lin
 
 *the terminal* - Particularly used to refer to the command line on OSX. This term made more sense when universities used mainframes and every computer was only a terminal.
 
-### Other Terms
+## Other Terms
 
 *argument* - In the command line, an argument is an item or parameter that you give a program when you start it. For instance, if you
 
@@ -110,7 +108,7 @@ The wildcard, `*`, will tell the command to search for any file ending with a .t
 `mv [filename.*] [foldername]`
 
 
-### Other command line resources
+## Other command line resources
 
 [Bash manual](https://www.gnu.org/software/bash/manual/bashref.html) - the no nonsense text descriptions of bash commands.  
 [Explain shell](https://explainshell.com/) - a site that explains commands you paste into the form. This site is fantastic for breaking down commands you find in the wild on the internet.  
