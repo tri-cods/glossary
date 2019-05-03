@@ -15,4 +15,4 @@
 
 ## Other definitions
 
-*Tidy data* - A specific system for cleaning and standardizing data for statistical analysis using the R programming language, developed by Hadley Wickham. See the [original paper] (http://vita.had.co.nz/papers/tidy-data.html) or an [informal version](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html). 
+*Tidy data* - A specific system for cleaning and standardizing data for statistical analysis using the R programming language, developed by Hadley Wickham. See the [original paper](http://vita.had.co.nz/papers/tidy-data.html) or an [informal version](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html). 
